@@ -8,7 +8,7 @@
 /
 &SYSTEM
    ecutwfc          = 40
-   ecutrho          = 360
+   ecutrho          = 160
    occupations      = 'fixed'
    ntyp             = 3
    nat              = 20
