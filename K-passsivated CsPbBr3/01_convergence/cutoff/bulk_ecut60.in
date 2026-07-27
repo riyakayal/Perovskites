@@ -2,11 +2,13 @@
    calculation      = 'scf'
    restart_mode     = 'from_scratch'
    tprnfor          = .true.
+   tstress          = .true.
    outdir           = './tmp/'
    prefix           = 'cspbbr3_bulk_scan'
    pseudo_dir       = '../../00_pseudopotentials/'
 /
 &SYSTEM
+   ibrav            = 0
    ecutwfc          = 60
    ecutrho          = 240
    occupations      = 'fixed'
