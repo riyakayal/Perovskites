@@ -4,7 +4,7 @@
    tstress          = .false.
    tprnfor          = .true.
    outdir           = '.'
-   prefix           = '3plane_baseline'
+   prefix           = '3plane'
    pseudo_dir       = '../../00_pseudopotentials/'
    etot_conv_thr    = 1.0d-5
    forc_conv_thr    = 5.0d-4
